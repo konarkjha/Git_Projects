@@ -1,0 +1,15 @@
+
+public class Constructor {
+
+	public Constructor() {
+		System.out.println("In the Constructor");
+	}
+
+	public static void main(String[] args) {
+		
+		System.out.println("In Main");
+		Constructor obj=new Constructor();
+		System.out.println(obj);
+	}
+
+}

@@ -1,17 +1,14 @@
 
 public class Constructor {
 
-	Constructor() {
+	public Constructor() {
 		System.out.println("In the Constructor");
-	}
-	static void Static() {
-		System.out.println("In static");
 	}
 
 	public static void main(String[] args) {
-		Constructor obj=new Constructor();
+		
 		System.out.println("In Main");
-		Static();
+		Constructor obj=new Constructor();
 		
 	}
 
